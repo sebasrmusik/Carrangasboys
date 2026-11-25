@@ -42,9 +42,9 @@ a:focus-visible{outline:3px solid var(--marino);outline-offset:4px}
 @media (min-width:900px){
   .page{max-width:none;min-height:100vh;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);grid-template-rows:1fr auto;
     column-gap:6vw;padding:4rem 7vw 2rem;align-items:center}
-  .id{grid-row:1}
+  .id{grid-row:1;width:fit-content}
   .logo{width:min(36vw,36rem);margin:0}
-  .tag{text-align:left;margin:2rem 0 0;font-size:1.6rem;max-width:none}
+  .tag{text-align:center;margin:2rem 0 0;font-size:1.6rem;max-width:none}
   .links{grid-row:1;gap:0;border-top:2px solid rgba(105,184,213,.6)}
   .btn{flex-direction:row;justify-content:space-between;align-items:center;gap:2rem;min-height:5.5rem;padding:1.2rem 1.25rem;
     border:0;border-bottom:2px solid rgba(105,184,213,.6);border-radius:0;background:transparent;text-align:left}
